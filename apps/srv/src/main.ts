@@ -7,6 +7,11 @@ import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app/app.module';
+import '@qu/identity'
+import '@qu/role'
+import '@qu/appointment'
+import '@qu/service'
+import '@qu/staff'
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);

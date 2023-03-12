@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@qu/appointment": ["libs/appointment/src/index.ts"],
+      "@qu/identity": ["libs/identity/src/index.ts"],
+      "@qu/review": ["libs/review/src/index.ts"],
+      "@qu/role": ["libs/role/src/index.ts"],
+      "@qu/service": ["libs/service/src/index.ts"],
+      "@qu/staff": ["libs/staff/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
